@@ -179,7 +179,6 @@ h6 { font-size: 1rem; }
 		flex: 1 1 auto;
 		order: 2;
 		padding-left: 2rem;
-		font-family: "Courier New", Courier, monospace;
 	}
 }
 
@@ -193,17 +192,23 @@ h6 { font-size: 1rem; }
 	}
 }
 
-.section.jury .section-image {
-	img {
-		width: 280px;
-		-webkit-filter: grayscale(100%);
-		filter: grayscale(100%);
-		transition: filter .25s linear;
+.section.jury {
+	.section-text {
+		font-family: "Courier New", Courier, monospace;
 	}
 
-	img:hover {
-		-webkit-filter: grayscale(0%);
-		filter: grayscale(0%);
+	.section-image {
+		img {
+			width: 280px;
+			-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+			transition: filter .25s linear;
+		}
+
+		img:hover {
+			-webkit-filter: grayscale(0%);
+			filter: grayscale(0%);
+		}
 	}
 }
 
