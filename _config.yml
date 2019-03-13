@@ -1,0 +1,16 @@
+baseurl: ""
+url: ""
+description: >-
+  Welcome to the largest student-run hackathon in Germany!
+slogan: Rethink Hackthon
+info_email: info@hackundsoehne.de
+date: May 11th and 12th, 2019
+apply_url: https://apply.hacktival.io/
+
+collections:
+  about:
+    output: true
+  juries:
+    output: true
+  faq:
+    output: true

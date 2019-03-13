@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }} | {{ site.slogan }}</title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+</head>
+<body>
+	{% include navigation.html %}
+	
+	<main class="main">
+		{{ content }}
+	</main>
+	
+	{% include footer.html %}
+
+	<style>
+	{% if page.color %}
+		p a,
+		mark,
+		h4, h5, h6
+		.accent-tc {
+			color: {{ page.color }} !important;
+		}
+		.accent-bg {
+			background-color: {{ page.color }} !important;
+		}
+		.accent-bc {
+			border-color: {{ page.color }} !important;
+		}
+	{% endif %}
+	{% if page.bg_url %}
+		body {
+			background-image: url('{{ page.bg_url }}');
+			background-position: {{ page.bg_position }};
+		}
+	{% endif %}
+	</style>
+</body>
+</html>

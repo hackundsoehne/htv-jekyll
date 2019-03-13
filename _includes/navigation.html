@@ -1,0 +1,14 @@
+<header class="header">
+	<div class="content">
+		<img class="header-logo" src="/assets/images/hacktival_logo_white.png">
+	</div>
+	<div class="container">
+		<nav class="navbar">
+			{% for item in site.data.navigation %}
+				<a class="navbar-link{% if page.url == item.link %} current{% endif %}" href="{{ item.link }}">
+					{{ item.name }}
+				</a>
+			{% endfor %}
+		</nav>
+	</div>
+</header>

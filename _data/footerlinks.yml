@@ -1,0 +1,10 @@
+- name: Team
+  link: https://hackundsoehne.de/team
+- name: Contact
+  link: https://hackundsoehne.de/contact
+- name: Code of Conduct
+  link: /coc-public.pdf
+- name: Terms
+  link: /terms.html
+- name: Privacy
+  link: /privacy.html
