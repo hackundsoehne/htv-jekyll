@@ -1,4 +1,4 @@
 ---
 question: Where do I sign up?
 ---
-You can sign up and apply right here: [https://apply.hacktival.io/](https://apply.hacktival.io/)
+You can sign up and apply right here: [apply.hacktival.io]({{ site.apply_url }})
