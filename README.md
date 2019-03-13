@@ -28,4 +28,4 @@
 
 Check the Jekyll SEO plugins [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) and [advanced usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md) documenation.
 
-If the plugin does not support the tags you need, feel free to add them "manuelly" to the `_layouts/default.html` file.
+If the plugin does not support the tags you need, feel free to add them "manuelly" to the `_layouts/base.html` file.
