@@ -9,6 +9,7 @@ apply_url: https://apply.hacktival.io/
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   about:
