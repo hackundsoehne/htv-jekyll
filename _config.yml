@@ -24,4 +24,4 @@ collections:
   faq:
     output: true
 
-exclude: ["README.md"]
+exclude: ["README.md", "Dockerfile"]
