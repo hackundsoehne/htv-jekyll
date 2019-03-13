@@ -210,8 +210,16 @@ h6 { font-size: 1rem; }
 /* [LOCATION] */
 
 .map {
-	display: block;
-	height: 500px;
+ 	background-color: red;
+ 	width: 100%;
+ 	padding-top: 42.86%; /* 21:9 Aspect Ratio */
+ 	position: relative;
+}
+
+@media (max-width: 768px) {
+	.map {
+ 		padding-top: 75%; /* 4:3 Aspect Ratio */
+	}
 }
 
 /* [FOOTER] */
