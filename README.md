@@ -1,4 +1,4 @@
-## How to run this localy?
+## How to run this locally?
 
 - Install `bundler` and `jekyll`: `gem install bundler jekyll`
 - Serve the website: `bundle exec jekyll serve`
@@ -21,10 +21,10 @@
 
 ## How to add a new jury member?
 
-- Create a new `.md` file in the `_jury/` directory
-- Give it a similar header to the other files in the `_jury/` directory
+- Create a new `.md` file in the `_juries/` directory
+- Give it a similar header to the other files in the `_juries/` directory
 
-## How to add seo tags?
+## How to add SEO tags?
 
 Check the Jekyll SEO plugins [usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) and [advanced usage](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md) documenation.
 
