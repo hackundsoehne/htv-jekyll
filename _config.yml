@@ -24,4 +24,7 @@ collections:
   faq:
     output: true
 
+sass:
+  style: compressed
+
 exclude: ["README.md", "Dockerfile"]
