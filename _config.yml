@@ -14,3 +14,5 @@ collections:
     output: true
   faq:
     output: true
+
+exclude: ["README.md"]
