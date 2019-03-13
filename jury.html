@@ -1,0 +1,22 @@
+---
+layout: normal
+title: Jury
+color: "#00ff00"
+bg_url: "/assets/images/shapes/Form3_grün_transparent.svg"
+bg_position: "-35vh 70vh"
+---
+<header class="content-header">
+	<h1>{{ page.title }}</h1>
+</header>
+
+{% for jury in site.juries %}
+<div class="section jury">
+	<div class="section-text">
+		<h4 class="accent-tc">{{ jury.name }}</h4>
+		{{ jury.content | markdownify }}
+	</div>
+	<div class="section-image">
+		<img src="{{ jury.image }}">
+	</div>
+</div>
+{% endfor %}
