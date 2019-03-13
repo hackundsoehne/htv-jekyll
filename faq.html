@@ -1,0 +1,24 @@
+---
+layout: small
+title: FAQ
+color: "#ff5b00"
+bg_url: "/assets/images/shapes/Form1_orange_transparent.svg"
+bg_position: "70vw 30vh"
+---
+<header class="content-header">
+	<h1>{{ page.title }}</h1>
+</header>
+
+<ul class="faq">
+	{% for faq in site.faq %}
+		<li>
+			<h4 class="accent-tc">{{ faq.question }}</h4>
+			{{ faq.content | markdownify }}
+		</li>
+	{% endfor %}
+</ul>
+
+<footer class="content-footer">
+	<strong>Didn't find what you're looking for?</strong><br>
+	<p><a class="accent-tc" href="mailto:{{ site.info_email }}" target="_top">{{ site.info_email }}</a></p>
+</footer>
