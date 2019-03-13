@@ -188,11 +188,18 @@ h6 { font-size: 1rem; }
 	.section-image {
 		flex-shrink: 0;
 		order: 1;
+		margin: 0;
+		max-width: 380px;
 	}
 
 	.section-image img {
-		width: 380px;
+		width: 100%;
 		max-width: 100%;
+	}
+
+	.section-image figcaption {
+		font-size: .75rem;
+		color: #ccc;
 	}
 
 	.section-text {
