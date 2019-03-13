@@ -5,7 +5,8 @@ description: >-
 author: Hack &amp; Söhne
 google_site_verification: tjukQQpmzsqdbPMnXjNBcrTMyJvr9QDKjFdGEuhEJwM
 lang: en_US
-image: https://hacktival.io/fb-cover.jpg
+image: /assets/images/htv_cover_image.jpg
+logo: /assets/images/htv_cover_image.jpg
 
 slogan: Rethink Hackthon
 info_email: info@hackundsoehne.de
