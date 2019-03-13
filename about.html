@@ -1,0 +1,22 @@
+---
+layout: normal
+title: About
+color: "#00ff00"
+bg_url: "/assets/images/shapes/Form1_orange_transparent.svg"
+bg_position: "80vw 10vh"
+---
+<header class="content-header">
+	<h1>{{ page.title }}</h1>
+</header>
+
+{% for section in site.about %}
+<section class="section">
+	<div class="section-text">
+		<h4 class="accent-tc">{{ section.title }}</h4>
+		{{ section.content | markdownify }}
+	</div>
+	<div class="section-image">
+		<img src="{{ section.image }}">
+	</div>
+</section>
+{% endfor %}
