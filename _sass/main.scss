@@ -141,6 +141,12 @@ h6 { font-size: 1rem; }
 	}
 }
 
+@media (max-width: 768px) {
+	.btn {
+		padding: .5em 1.5em;
+	}
+}
+
 /* [FAQ] */
 
 .faq {
@@ -219,7 +225,7 @@ h6 { font-size: 1rem; }
 		text-align: center;
 	}
 	.section-text {
-		padding: 0;
+		padding: 0 !important;
 	}
 }
 
@@ -246,7 +252,7 @@ h6 { font-size: 1rem; }
 /* [LOCATION] */
 
 .map {
- 	background-color: red;
+ 	background-color: rgba(0, 0, 0, .75);
  	width: 100%;
  	padding-top: 42.86%; /* 21:9 Aspect Ratio */
  	position: relative;

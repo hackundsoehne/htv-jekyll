@@ -1,5 +1,6 @@
 baseurl: ""
 url: "https://hacktival.io"
+title: Hacktival Hackathon
 description: >-
   Welcome to the largest student-run hackathon in Germany!
 author: Hack &amp; Söhne
@@ -8,7 +9,7 @@ lang: en_US
 image: /assets/images/htv_cover_image.jpg
 logo: /assets/images/htv_cover_image.jpg
 
-slogan: Rethink Hackthon
+slogan: Rethink Hackathon
 info_email: info@hackundsoehne.de
 date: May 11th and 12th, 2019
 apply_url: https://apply.hacktival.io/
