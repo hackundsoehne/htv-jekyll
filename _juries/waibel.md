@@ -1,6 +1,7 @@
 ---
 name: Prof. Dr. Alexander Waibel
 image: /assets/images/jury/waibel.jpg
+hidden: yes
 ---
 Alexander is a Professor of Computer Science at Carnegie Mellon University, Pittsburgh and at the Karlsruhe Institute of Technology, Germany.
 

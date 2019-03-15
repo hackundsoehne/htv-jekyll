@@ -10,6 +10,7 @@ bg_position: "-35vh 70vh"
 </header>
 
 {% for jury in site.juries %}
+{% unless jury.hidden %}
 <div class="section jury">
 	<div class="section-text">
 		<h4 class="accent-tc">{{ jury.name }}</h4>
@@ -19,4 +20,5 @@ bg_position: "-35vh 70vh"
 		<img src="{{ jury.image }}">
 	</div>
 </div>
+{% endunless %}
 {% endfor %}
