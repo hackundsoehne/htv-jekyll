@@ -25,6 +25,8 @@ collections:
     output: true
   faq:
     output: true
+  cats:
+    output: true
 
 sass:
   style: compressed

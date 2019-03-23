@@ -250,6 +250,46 @@ h6 { font-size: 1rem; }
 	}
 }
 
+/* [ACCORDION] */
+
+.accordion {
+	border: 1px solid #fff;
+	background: rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+
+	.accordion-btn {
+		padding: .75em 1rem;
+		background: #fff;
+		color: #000;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+	}
+
+	.accordion-indicator {
+		margin-left: 1rem;
+
+		&:after {
+			content: '\02795';
+		}
+	}
+
+	.accordion-panel {
+		padding: 0 1rem;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.25s linear;
+	}
+
+	.accordion-btn.active ~ .accordion-panel {
+		max-height: 100vh;
+	}
+
+	.accordion-btn.active > .accordion-indicator:after {
+		content: "\2796";
+	}
+}
+
 /* [LOCATION] */
 
 .map {

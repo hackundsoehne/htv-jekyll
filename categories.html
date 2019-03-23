@@ -1,11 +1,34 @@
 ---
-layout: centered
+layout: normal
 title: Categories
 color: "#ff00b6"
 bg_url: "/assets/images/shapes/Form2_pink_transparent.svg"
 bg_position: "70vw -40vh"
 ---
 <header class="content-header">
-	<p><strong>To Be announced!</strong></p>
-	<p><strong>Check Back <mark>Soon</mark> For More Information.</strong></p>
+	<h1>{{ page.title }}</h1>
 </header>
+
+{% for cat in site.cats %}
+<div class="accordion">
+	<a class="accordion-btn" href="#">
+		<span><b>{{ cat.title }}</b> <span>{{ cat.subtitle }}</span></span>
+		<span class="accordion-indicator"></span>
+	</a>
+	<div class="accordion-panel">{{ cat.content | markdownify }}</div>
+</div>
+{% endfor %}
+
+<div class="content-footer">
+	<p><strong>But That's Not All!</strong></p>
+	<p><strong>Check Back <mark>Soon</mark> For More Categories.</strong></p>
+</div>
+
+<script>
+	var accs = document.getElementsByClassName("accordion-btn");
+	for (var i = 0; i < accs.length; i++) {
+		accs[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+		});
+	}
+</script>
