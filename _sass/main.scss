@@ -19,6 +19,12 @@ a {
 	text-decoration: none;
 }
 
+ul, ol {
+	margin: 0;
+	padding: 0;
+	padding-left: 1em;
+}
+
 hr {
 	display: block;
 	border: 0;
