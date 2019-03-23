@@ -27,7 +27,8 @@ bg_position: "70vw -40vh"
 <script>
 	var accs = document.getElementsByClassName("accordion-btn");
 	for (var i = 0; i < accs.length; i++) {
-		accs[i].addEventListener("click", function() {
+		accs[i].addEventListener("click", function(event) {
+			event.preventDefault();
 			this.classList.toggle("active");
 		});
 	}
