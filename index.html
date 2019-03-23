@@ -10,3 +10,38 @@ bg_position: "center center"
 	<a class="btn" href="{{ site.apply_url }}" target="_blank">Apply Now</a>
 	<p><strong>{{ site.date }}</strong></p>
 </header>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Event",
+	"name": "Hacktival Hackthon",
+	"description": "The Hacktival Hackthon is the largest student-run hackathon in Germany.",
+	"image": "https://hacktival.io/assets/images/htv_cover_image.jpg",
+	"startDate": "2019-05-11T09:00",
+	"endDate": "2019-05-12T19:00",
+	"organizer": {
+		"name": "Hack und Söhne"
+	},
+	"location": {
+		"@type": "Place",
+		"name": "ZKM",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Lorenzstraße 19",
+			"addressLocality": "Karlsruhe",
+			"postalCode": "76135",
+			"addressCountry": "DE"
+		}
+	},
+	"offers": {
+		"@type": "Offer",
+		"name": "Admission",
+		"price": "0",
+		"priceCurrency": "EUR",
+		"validFrom": "2019-05-11T09:00",
+		"url": "https://apply.hacktival.io/",
+		"availability": "http://schema.org/InStock"
+	}
+}
+</script>
