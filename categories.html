@@ -11,7 +11,7 @@ bg_position: "70vw -40vh"
 
 {% for cat in site.cats %}
 <div class="accordion">
-	<a class="accordion-btn" href="#">
+	<a class="accordion-btn {% if forloop.first %}active{% endif %}" href="#">
 		<span><b>{{ cat.title }}</b> <span>{{ cat.subtitle }}</span></span>
 		<span class="accordion-indicator"></span>
 	</a>
