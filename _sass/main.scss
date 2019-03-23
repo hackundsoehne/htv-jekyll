@@ -124,11 +124,13 @@ h6 { font-size: 1rem; }
 /* [BUTTONS] */
 
 .btn {
+	display: inline-block;
 	text-transform: uppercase;
 	background: #1a1919;
 	color: #fff;
 	border: 1px solid #fff;
 	padding: 1rem 3rem;
+	margin-bottom: 1rem;
 	font-size: 2rem;
 	font-weight: 700;
 	text-align: center;
