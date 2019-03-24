@@ -290,7 +290,7 @@ h6 { font-size: 1rem; }
 	}
 
 	.accordion-btn.active ~ .accordion-panel {
-		max-height: 100vh;
+		max-height: 9999vh;
 	}
 
 	.accordion-btn.active > .accordion-indicator:after {
