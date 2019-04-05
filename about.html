@@ -17,7 +17,7 @@ bg_position: "80vw 10vh"
 	</div>
 
 	<figure class="section-image">
-		<img src="{{ section.image }}">
+		<img src="{{ section.image }}" alt="{{ section.title }} Image">
 		{% if section.image_caption %}
 			<figcaption>{{ section.image_caption }}</figcaption>
 		{% endif %}
