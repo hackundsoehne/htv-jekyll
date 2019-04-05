@@ -1,0 +1,16 @@
+- time: 08:00 - 10:00
+  name: Breakfast
+- time: 12:00 - 13:30
+  name: Lunch Time
+- time: 11:00 - 14:30
+  name: Finalists preselection
+- time: "15:00"
+  name: Announcement of the Finalists
+- time: 16:00 - 17:00
+  name: Final Pitches
+- time: 17:45 - 18:30
+  name: Award Ceremony and Closing Session
+- time: 18:30 - 19:30
+  name: Take-Away Dinner
+- time: "19:00"
+  name: Departure
