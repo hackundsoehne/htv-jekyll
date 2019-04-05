@@ -8,8 +8,8 @@ If you are looking for clear guidelines on what to build, where to look and how 
 
 ### Prices
 
-- First place: 4000€
-- Second place: 2000€
+- First place: 3000€
+- Second place: 1500€
 - Third place: 1000€
 
 ### Judging Criteria
