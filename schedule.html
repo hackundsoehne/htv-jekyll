@@ -1,11 +1,45 @@
 ---
-layout: centered
+layout: normal
 title: Schedule
 color: "#ff5b00"
 bg_url: "/assets/images/shapes/Form3_orange_transparent.svg"
 bg_position: "-20vw 10vh"
 ---
 <header class="content-header">
-	<p><strong>To Be announced!</strong></p>
-	<p><strong>Check Back <mark>Soon</mark> For More Information.</strong></p>
+	<h1>{{ page.title }}</h1>
 </header>
+
+<div class="framedlists">
+
+	<div class="framedlist">
+		<header class="list-header"><b>Saturday</b>, May 11th</header>
+		<ol>
+		{% for item in site.data.saturday %}
+			<li>
+				<b>{{ item.time }}</b>
+				<br>
+				<span>{{ item.name }}</span>
+			</li>
+		{% endfor %}
+		</ol>
+	</div>
+
+	<div class="framedlist">
+		<header class="list-header"><b>Sunday</b>, May 12th</header>
+		<ol>
+		{% for item in site.data.sunday %}
+			<li>
+				<b>{{ item.time }}</b>
+				<br>
+				<span>{{ item.name }}</span>
+			</li>
+		{% endfor %}
+		</ol>
+	</div>
+
+</div>
+
+<div class="content-footer">
+	<p><strong>The Schedule is not yet complete.</p>
+	<p><strong>Stay tuned for <mark>more</mark>!</strong></p>
+</div>
