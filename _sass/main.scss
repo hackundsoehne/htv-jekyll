@@ -41,7 +41,7 @@ b, strong {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: .5em 0;
+	margin: 0;
 }
 
 h1 { font-size: 2.5rem; }
@@ -115,10 +115,15 @@ h6 { font-size: 1rem; }
 	flex-flow: column nowrap;
 }
 
-.content-header {
+.content-siteheader {
 	text-align: center;
 	margin-top: 2rem;
 	margin-bottom: 4rem;
+}
+
+.content-header {
+	text-align: center;
+	margin: 2rem 0;
 }
 
 .content-footer {
