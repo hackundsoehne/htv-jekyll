@@ -20,7 +20,6 @@ a {
 }
 
 ul, ol {
-	margin: 0;
 	padding: 0;
 	padding-left: 1em;
 }
@@ -297,14 +296,14 @@ h6 { font-size: 1rem; }
 	}
 
 	.accordion-panel {
-		padding: 0 1rem;
+		padding: 0rem 1rem;
 		max-height: 0;
 		overflow: hidden;
-		transition: max-height 0.25s linear;
 	}
 
 	.accordion-btn.active ~ .accordion-panel {
 		max-height: 9999vh;
+		padding-top: 1rem;
 	}
 
 	.accordion-btn.active > .accordion-indicator:after {
