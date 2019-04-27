@@ -1,13 +1,100 @@
 ---
-layout: centered
+layout: normal
 title: Sponsors
 color: "#ff00b6"
 bg_url: "/assets/images/shapes/Form2_pink_transparent.svg"
 bg_position: "-10vw -40vh"
 ---
-<header class="content-siteheader">
-	<p><strong>Stay Tuned For Our <mark>Awesome</mark> Sponsors!</strong></p>
-	<hr>
-	<p><strong>Want to become a sponsor?</strong></p>
-	<p>Contact us: <a href="mailto:{{ site.info_email }}">{{ site.info_email }}</a></p>
-</header>
+
+<div class="screen">
+	<header class="screen-header">
+		<h3>Sponsors</h3>
+		<p>A huge shout out to our generous sponsors and friends who make this event possible!</p>
+	</header>
+</div>
+
+{% assign platinum_sponsors = site.data.sponsors | where:'kind', 'Platinum' %}
+{% assign premium_sponsors = site.data.sponsors | where:'kind', 'Premium' %}
+{% assign startup_sponsors = site.data.sponsors | where:'kind', 'Startup' %}
+{% assign basic_sponsors = site.data.sponsors | where:'kind', 'Basic' %}
+{% assign friends = site.data.sponsors | where:'kind', 'Friend' %}
+
+{% if platinum_sponsors.size > 0 %}
+	<div class="screen">
+		<header class="screen-header">
+			<h3>Platinum Sponsors</h3>
+		</header>
+
+		{% for sponsor in platinum_sponsors %}
+			<div class="screen-row">
+				<a class="screen-logo" target="_blank" rel="noopener" href="{{ sponsor.link }}">
+					<img src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}
+
+{% if premium_sponsors.size > 0 %}
+	<div class="screen">
+		<header class="screen-header">
+			<h3>Premium Sponsors</h3>
+		</header>
+
+		{% for sponsor in premium_sponsors %}
+			<div class="screen-row">
+				<a class="screen-logo" target="_blank" rel="noopener" href="{{ sponsor.link }}">
+					<img src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}
+
+{% if startup_sponsors.size > 0 %}
+	<div class="screen">
+		<header class="screen-header">
+			<h3>Startup Sponsors</h3>
+		</header>
+
+		{% for sponsor in startup_sponsors %}
+			<div class="screen-row">
+				<a class="screen-logo" target="_blank" rel="noopener" href="{{ sponsor.link }}">
+					<img src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}
+
+{% if basic_sponsors.size > 0 %}
+	<div class="screen">
+		<header class="screen-header">
+			<h3>Basic Sponsors</h3>
+		</header>
+
+		{% for sponsor in basic_sponsors %}
+			<div class="screen-row">
+				<a class="screen-logo" target="_blank" rel="noopener" href="{{ sponsor.link }}">
+					<img src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}
+
+{% if friends.size > 0 %}
+	<div class="screen">
+		<header class="screen-header">
+			<h3>Friends</h3>
+		</header>
+
+		{% for friend in friends %}
+			<div class="screen-row">
+				<a class="screen-logo" target="_blank" rel="noopener" href="{{ friend.link }}">
+					<img src="{{ friend.logo }}" alt="{{ friend.name }} Logo">
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}
