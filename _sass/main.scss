@@ -169,6 +169,40 @@ h6 { font-size: 1rem; }
 	margin-bottom: 1rem;
 }
 
+/* [SCREEN] */
+
+.screen {
+	background: #fff;
+	color: #000;
+	margin-bottom: 2rem;
+	padding: 2rem;
+}
+
+.screen-header {
+	text-align: center;
+	font-size: 1.25em;
+
+	h3 {
+		font-size: 2rem;
+	}
+}
+
+.screen-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.screen-logo {
+	margin: 4rem 0;
+	width: 260px;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+	}
+}
+
 /* [FAQ] */
 
 .faq {
