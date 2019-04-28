@@ -10,9 +10,9 @@ The 21st Century is taking us to another level technologically. Just think about
 
 Rise to the challenge: Create something from which your friends, family, society or environment as a whole can benefit. You decide which problems to solve. The biggest hurdle isn´t technological, but rather finding ways to accommodate these human issues while maintaining ethical values, responsibility and sustainability. Show us what you can do: Build an app, a website, an integrated service or anything else that you think might help.
 
-### Prices
+### Prizes
 
-Stay tuned!
+Grand Prize: 3000€
 
 ### Judging Criteria
 

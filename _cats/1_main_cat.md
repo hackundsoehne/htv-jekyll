@@ -6,7 +6,7 @@ subtitle: "our main category"
 
 If you are looking for clear guidelines on what to build, where to look and how to implement your idea, this is the wrong category to focus on. You can submit any idea in this category. Be it a web-app, a Haskell API or a creative piece of digital art, our jurors will decide which project is the strongest overall. 
 
-### Prices
+### Prizes
 
 - First place: 3000€
 - Second place: 1500€
