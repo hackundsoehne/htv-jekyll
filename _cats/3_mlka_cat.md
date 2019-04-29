@@ -6,7 +6,7 @@ by Nino Alonso (HfG Karlsruhe), Leander Kurscheidt (ML-KA)
 
 
 ### Topic
-Are you tired of creating short-lived hackathon projects? This challenge is part of an future art-installation and certainly not an easy task.
+Are you tired of creating short-lived hackathon projects? This challenge is part of a future art-installation and certainly not an easy task.
 
 #### Background 
 The specific usage of german language in the area of public institutions such as job centers or insurance companies is a widespread rhetoric. This rhetoric, in german scientifically known under the term „Verwaltungssprache” (language of officialdom), is commonly used for letters. Practically, it is the method and tool for institutions to organize and communicate issues and problems with their clients. 
