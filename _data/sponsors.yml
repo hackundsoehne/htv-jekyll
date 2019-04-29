@@ -6,14 +6,14 @@
   kind: Premium
   logo: /assets/images/logos/BFK/bfk.png
   link: https://www.bfk.de/
-- name: JamitLabs
-  kind: Premium
-  logo: /assets/images/logos/JamitLabs/Jamit%20Labs-Logo-Druck.png
-  link: https://jamitlabs.com/
 - name: Razorcat
   kind: Premium
   logo: /assets/images/logos/Razorcat/RAZORCAT_Logo_RGB_500x158.png
   link: https://www.razorcat.com/
+- name: JamitLabs
+  kind: Premium
+  logo: /assets/images/logos/JamitLabs/Jamit%20Labs-Logo-Druck.png
+  link: https://jamitlabs.com/
 - name: SEW Eurodrive
   kind: Basic
   logo: /assets/images/logos/SEW/SEW-CMYK.JPG
