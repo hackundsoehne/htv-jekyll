@@ -26,3 +26,7 @@
   kind: Friend
   logo: /assets/images/logos/FokusEnergie/logo_fokus_energie_slogan_rgb_gross.png
   link: https://www.fokusenergie.net/
+- name: Plexilaser
+  kind: Friend
+  logo: /assets/images/logos/Plexilaser/plexilaser-logo.svg
+  link: https://www.plexilaser.de/
