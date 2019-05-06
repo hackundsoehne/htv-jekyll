@@ -15,7 +15,7 @@ date: May 11th and 12th, 2019
 apply_url: https://apply.hacktival.io/
 deadline: "May 5, 2019 23:59:59 GMT+02:00"
 deadline_title: "Application Deadline:"
-deadline_expired: "EXPIRED"
+deadline_expired: "The application deadline expired."
 
 plugins:
   - jekyll-sitemap
