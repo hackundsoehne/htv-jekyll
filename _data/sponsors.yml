@@ -30,3 +30,7 @@
   kind: Friend
   logo: /assets/images/logos/Plexilaser/plexilaser-logo.svg
   link: https://www.plexilaser.de/
+- name: Pioniergarage
+  kind: Friend
+  logo: /assets/images/logos/PG/LogoMitName.png
+  link: https://www.pioniergarage.de/
