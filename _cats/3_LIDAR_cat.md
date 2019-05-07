@@ -1,6 +1,6 @@
 ---
 title: "LIDAR Challenge"
-subtitle: "for Hacktival.io"
+subtitle: "by EIFER and fokus.energie"
 ---
 Target group: Geoinformaticians, Data Scientists, Architects, Designers, all
 
@@ -19,6 +19,14 @@ Machine learning approaches are particularly suitable, but knowledge of geoinfor
 
 - [Open LIDAR data from NRW](https://www.opengeodata.nrw.de/produkte/geobasis/dom/dom1l/index.html) (depending on location between 2GB - 23GB)
 - [Open LIDAR data from Thuringia](https://www.geoportal-th.de/de-de/Downloadbereiche/Download-Offene-Geodaten-Th%C3%BCringen)
+
+#### EIFER Prize
+
+The winning team members will _each_ receive 1 iPad and will be invited to EIFER's "Smart City Lab" as an occasion to exchange with scientific experts and explore further developments of their project.
+
+#### Fokus.energie Prize
+
+The winning team will get from [fokus.energie](https://www.fokusenergie.net/de/index.php) a professional day training on business development within the program TEAM DEVELOPMENT powered by [AXEL – The Energy-Accelerator](https://axel.energy/en/index.php).
 
 #### Further information:
 
