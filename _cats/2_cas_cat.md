@@ -12,7 +12,7 @@ Rise to the challenge: Create something from which your friends, family, society
 
 ### Prizes
 
-Grand Prize: 3000€
+Grand Prize: 1500€
 
 ### Judging Criteria
 
